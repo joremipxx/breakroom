@@ -1,0 +1,52 @@
+.zoom-callback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.callback-content {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.callback-content h2 {
+  margin: 0 0 16px 0;
+  color: #232333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.callback-content p {
+  color: #666666;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Loading indicator */
+.loading-indicator {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Error state */
+.callback-error {
+  color: #ff4444;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .callback-content {
+    width: 95%;
+    padding: 20px;
+  }
+} 

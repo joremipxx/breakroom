@@ -1,0 +1,7 @@
+version: "2"
+authtoken: "2qHrUen6BHagmLsPgT9b74MCSwh_3S6wZzJvk8Xbk75hoax8c"
+tunnels:
+  app:
+    addr: 3001
+    proto: http
+    hostname: grown-peaceful-oyster.ngrok-free.app

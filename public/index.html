@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Zoom Breakout Room Manager" />
+
+    <!-- Content Security Policy -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https://*.zoom.us https://*.zoomdev.us; 
+               script-src 'self' 'unsafe-inline' 'unsafe-eval' https://appssdk.zoom.us/sdk/0.16.24/sdk.js https://*.zoom.us https://*.zoomdev.us; 
+               connect-src 'self' https://*.zoom.us https://*.zoomdev.us wss://*.zoom.us wss://*.zoomdev.us; 
+               img-src 'self' data: https://*.zoom.us; 
+               style-src 'self' 'unsafe-inline';"
+    />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Zoom Breakout Room Manager</title>
+
+    <!-- Load the Zoom Apps SDK -->
+    <script src="https://appssdk.zoom.us/sdk/0.16.24/sdk.js"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html> 
